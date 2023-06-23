@@ -1,0 +1,89 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.header{
+    
+    height:76px;
+    /* background-color: antiquewhite; */
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+   /* padding-left: 300px; */
+   /* margin-left: 200px; */
+   padding-left:100px;
+   padding-right:100px;
+
+}
+.vvv{
+    height:800px;
+    align-items: center;
+    display:flex;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+.hhh{
+  
+    height:400px;
+    align-items: center;
+    display:flex;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.aa{
+    width:450px;
+    height:250px;
+   border: 1px groove black;
+   border-radius:25px;
+   bottom:0px;
+   
+   
+    /* box-shadow:0 0 20px  grey;
+    transform:scale(1.00);
+    transition: box-shadow 0.3s ease-in-out; */
+    
+    
+}
+@keyframes juhi{
+    0%{
+        width:450px;
+    height:250px;
+   box-shadow:none;
+   border-radius:25px;
+   bottom:0px;
+    }
+    100%{
+        border:0px;
+        box-shadow:0 0 25px  grey;
+       
+
+    }
+}
+
+.aa:hover{
+    animation:juhi 1s ease 0s infinite;
+    border:0px;
+    box-shadow:0 0 25px  grey;
+    transform:scale(1.00);
+    
+    
+     /* transition: box-shadow 0.3s ease-in-out;  */
+    /*transition: border-radius 2s;
+    transition: transform 2s ease ; */
+    
+}
+
+
+.logo:hover{
+   
+    animation: animate__wobble 2s ease 0s infinite;
+}
+
+
+.header a:hover{
+    color:blueviolet;
+    animation: animate__wobble 2s;
+}

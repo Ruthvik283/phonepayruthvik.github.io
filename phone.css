@@ -79,9 +79,11 @@
     background-color:rgb(218, 234, 234);
 }
 .extra:hover{
-    background-color: black;
+   background-color: black;
     color:aliceblue;
-    transition: color 1.7s ease-in-out;
+   
+    transition: color 1.5s ease-in-out,
+                 background-color 0.5s ease-in-out;
 
 }
 .extr{
